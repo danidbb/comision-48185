@@ -80,6 +80,9 @@ header{
     width: 100%;
     margin: 0;
     padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .mas-info-titulo{
@@ -88,8 +91,7 @@ header{
 }
 
 .mas-info-button{
-    position: relative;
-    display: inline-block;
+    
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
@@ -97,11 +99,9 @@ header{
     outline: 2px solid #7B0D1E;
     padding: 5px 15px;
     overflow: hidden;
-    transition: 1s;
+    transition: color 1s;
     font-weight: bolder;
-    font-size: 13px;
-    width: 100px;
-    left: 715px;
+    margin: auto;
 }
 
 .mas-info-button:hover{
@@ -368,6 +368,22 @@ footer{
     background-color: #DFDFDF;
 }
 
+.sign-up-form h1{
+    text-align: center;
+    padding: 100px;
+    background: url(../images/sign-up-background);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.sign-up-form form{
+    margin-top: 50px;
+    text-align: center;
+
+}
+
 /*----NOSOTROS----*/
 
 .nosotros h1{
@@ -415,6 +431,8 @@ footer{
 }
 
 .programas .plan{
+    display: flex;
+    align-items: center;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(3,1fr);
@@ -471,6 +489,7 @@ footer{
 }
 
 .plan a{
+    align-self: center;
     text-decoration: none;
     position: relative;
     padding: 5px 5px;
