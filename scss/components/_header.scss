@@ -1,0 +1,25 @@
+header{
+    background-color:#171D1C;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    .navbar{
+        width: 100%;
+
+        .navbar-brand img{
+            width: 50px;
+            margin-top: 10px;
+            margin-left: 25px;
+            margin-bottom: 10px;
+        }
+        .collapse{
+            flex-direction: row-reverse;
+
+            .nav-link{
+                color: whitesmoke;
+                font-size: 17px;
+                font-weight: bold;
+            }
+        }
+    }
+}

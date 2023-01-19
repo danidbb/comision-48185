@@ -1,0 +1,38 @@
+$color-principal: #7B0D1E;
+$color-secundario: #DFDFDF;
+
+$padding:
+5px,
+10px,
+15px,
+30px;
+
+
+//! MAPAS
+
+$button:(
+    
+        bg-boton:$color-principal,
+        color-text:whitesmoke,
+        padding:5px,
+        deco:none,
+
+
+);
+
+//!EXTENDS
+
+%titulos{
+    text-align: center;
+    color: whitesmoke;
+    padding: 40px;
+    background-color: $color-principal;
+}
+
+//!MIXINS
+
+@mixin text ($align, $family, $height){
+    text-align: $align;
+    font-family: $family;
+    line-height: $height;
+}

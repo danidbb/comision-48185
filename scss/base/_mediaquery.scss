@@ -1,0 +1,50 @@
+@media screen and (max-width:860px) {
+    .info{
+        flex-direction: column;
+        width: 100%;
+    }
+    .info-img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 741px){
+    .nosotros{
+        flex-direction: column;
+    }
+    .programas .plan{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+}
+
+@media  screen and (max-width:722px) {
+    header{
+        flex-direction: column;
+    }
+    .cambios{
+        flex-direction: column;
+    }
+    .cambios iframe{
+        height: 100%;
+        width: 100%;
+        top: 0px;
+    }
+    .video iframe{
+        height: 100%;
+        width: 100%;
+        top: 0px;
+    }
+
+    .about{
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+    .about .owner img{
+        width: 100%;
+    }
+
+    
+}

@@ -38,7 +38,7 @@ header{
 /*-----INDEX------*/
 
 .correr{
-    background-image: url(../images/personal\ training.jpg);
+    background-image: url(../images/personal-training.jpg);
     height: 550px;
     background-attachment: fixed;
     background-position: center;
@@ -250,7 +250,7 @@ footer{
 }
 
 .login-nav__item a:after {
-    content: '';
+  content: '';
   display: inline-block;
   height: 10px;
   background-color: rgb(255, 255, 255);
@@ -262,7 +262,7 @@ footer{
   transition: .15s all ease;
 }
 
-.login-navi__tem a:hover:after,
+.login-nav__item a:hover:after,
 .login-nav__item.active a:after{
     background-color: #7B0D1E;
     height: 2px;
@@ -431,7 +431,6 @@ footer{
 }
 
 .programas .plan{
-    display: flex;
     align-items: center;
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -548,12 +547,15 @@ footer{
     }
     .info-img{
         width: 100%;
-    }   
+    }
 }
 
 @media screen and (max-width: 741px){
     .nosotros{
         flex-direction: column;
+    }
+    .programas .plan{
+        grid-template-columns: repeat(1,1fr);
     }
 
 }
@@ -585,4 +587,6 @@ footer{
     .about .owner img{
         width: 100%;
     }
-}
+
+    
+}    
